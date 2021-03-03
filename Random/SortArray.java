@@ -1,22 +1,33 @@
+
 public class SortArray {
     public static void main(String[] args) {
 
-        final char ON = '1';
-        final char OFF = '0';
+        
+       
+        // try {
+        // if (true) {
+        // throw new ArrayIndexOutOfBoundsException("array out of bounds");
+        // }
+        // } catch (Exception e) {
+        // System.out.print(e.getMessage());
+        // }
 
-        char state = '0';
+        // final char ON = '1';
+        // final char OFF = '0';
 
-        switch (state) {
+        // char state = '0';
 
-            case ON:
-                System.out.println("On");
-                break;
-            case OFF:
-                System.out.println("Off");
-                break;
-            default:
-                System.out.println();
-        }
+        // switch (state) {
+
+        // case ON:
+        // System.out.println("On");
+        // break;
+        // case OFF:
+        // System.out.println("Off");
+        // break;
+        // default:
+        // System.out.println();
+        // }
 
         // when using string in condition
         // it only reads the first letter
