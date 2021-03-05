@@ -8,9 +8,9 @@ public class S3_Technical_A {
 
             File file = new File("file.txt");
 
-            // create the files
+            // create the file
             if (file.createNewFile()) {
-                System.out.println("File created: " + file.getName() + "continuing...\n");
+                System.out.println("File created: " + file.getName() + "\ncontinuing...\n");
 
             } else {
                 System.out.println("File already exists. continuing...\n");

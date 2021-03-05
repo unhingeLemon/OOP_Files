@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.io.File;
+import java.io.*;
 
 public class S3_Technical_B {
 
@@ -11,6 +11,15 @@ public class S3_Technical_B {
 
         try {
             File file = new File("file.txt");
+            if (file.createNewFile()) {
+                System.out.println("File created: " + file.getName());
+            } else {
+                System.out.println("File already exists.");
+            }
+
+            FileWriter writer = new FileWriter("file.txt");
+            writer.write("Hello");
+            writer.close();
 
             // read from a file
             Scanner reader = new Scanner(file);
