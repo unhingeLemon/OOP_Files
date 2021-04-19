@@ -1,3 +1,4 @@
 clear
 javac SortArray.java
-java -ea SortArray
+javac ClassDemo1.java
+java SortArray
